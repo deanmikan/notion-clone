@@ -6,6 +6,8 @@ Most buttons haven't been implemented, but the base functionality is all here. C
 
 Have a look around 😎
 
+###### By Dean Mikan
+
 #
 
 ## To Run It
