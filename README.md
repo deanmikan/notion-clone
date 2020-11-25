@@ -1,6 +1,12 @@
 # Vue Notion Clone
 
-By Dean Mikan
+This was the result of a one-day build challenge.
+
+Most buttons haven't been implemented, but the base functionality is all here. Code is not refactored and most likely a bit spaghetti.
+
+Have a look around 😎
+
+#
 
 ## To Run It
 
