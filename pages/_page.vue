@@ -28,6 +28,11 @@ import PageControls from "@/components/PageControls";
 // Third party plugins
 
 export default {
+  head() {
+    return {
+      title: this.$store.getters["getPageTitleById"](this.$route.params.page),
+    };
+  },
   mixins: [],
   components: {
     Page,
