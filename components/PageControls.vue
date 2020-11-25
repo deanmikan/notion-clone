@@ -38,7 +38,13 @@
         </n-button>
       </v-col>
 
-      <v-col cols="auto" style="min-height: 29px">
+      <v-col
+        cols="auto"
+        style="min-height: 29px"
+        :style="{
+          marginTop: page.img && !page.emoji ? '260px' : '',
+        }"
+      >
         <v-fade-transition>
           <div class="d-flex" v-if="hover">
             <n-button
