@@ -44,6 +44,7 @@ export default {
 
   router: {
     middleware: "router",
+    base: "/notion-clone/",
   },
 
   // Vuetify module configuration (https://go.nuxtjs.dev/config-vuetify)
