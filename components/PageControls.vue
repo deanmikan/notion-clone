@@ -85,6 +85,8 @@
 import nbutton from "@/components/NButton";
 
 // Third party plugins
+import emojis from "./emojis";
+import _ from "lodash";
 
 export default {
   mixins: [],
@@ -104,7 +106,7 @@ export default {
   methods: {
     addEmoji() {
       if (!this.page.emoji) {
-        this.page.emoji = "🎲";
+        this.page.emoji = _.sample(emojis);
         this.$store.commit("EDIT_PAGE", this.page);
       }
     },
